@@ -12,6 +12,10 @@ body{
 
 /************* nav link ***********************/
 
+nav {
+  z-index: 2;
+}
+
 nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -39,4 +43,85 @@ border-top: 0.1875rem solid orange;
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid orange;
+}
+
+
+/************************** Header ******************/
+
+.header-wrapper {
+position: relative;
+background: url(./img/background.png) no-repeat;
+background-size: cover;
+background-position: center;
+height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1 {
+  text-transform: uppercase;
+  color: orange;
+}
+
+/************************** Typed text ******************/
+
+.typed-text {
+  font-size: 2rem;
+  color: white;
+}
+
+/************************** Main offer button ******************/
+
+.btn-main-offer {
+border: 1px solid red;
+text-transform: uppercase;
+border-radius: 0;
+padding: 0.75rem;
+color: white;
+margin: 2rem;
+}
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: white;
+  color: white;
+  background-color: orange;
+  transition: .2s ease-in-out;
+}
+
+/************************** Particles ******************/
+
+.tsparticles-canvas-el {
+position: absolute;
+/* height: 100% !important;
+width: 100% !important; */
+z-index: 1;
+}
+
+/************************** Media ******************/
+
+@media(max-width: 768px){
+  .particles-canvas {
+    display: none;
+  }
+  .main-info h1 {
+    font-size: 1.8rem !important;
+  }
+  .typed-text {
+    font-size: 1.4rem !important;
+  }
+  .navbar-brand {
+    width: 7rem;
+  }
 }
