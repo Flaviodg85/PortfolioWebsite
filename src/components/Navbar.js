@@ -4,7 +4,7 @@ import FontAwesome from 'react-fontawesome';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-md navbar-light bg-dark">
             <div className="container">
                 <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo"></img></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,10 +20,10 @@ const Navbar = () => {
                             <a className="nav-link" href="#">About Me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Services</a>
+                            <a className="nav-link" href="#">Curriculum</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Works</a>
+                            <a className="nav-link" href="#">Studies</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Portfolio</a>

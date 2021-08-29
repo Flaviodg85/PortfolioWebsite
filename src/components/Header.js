@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
-                <h1>Web Dev & website promotion</h1>
+                <h1>Web Dev & Portfolio</h1>
                 <ReactTypingEffect
                     className="typed-text"
                     text={["Hello World!",

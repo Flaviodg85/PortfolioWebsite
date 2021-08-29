@@ -10,8 +10,6 @@ body{
   width: 4.25rem;
 }
 
-/************* nav link ***********************/
-
 nav {
   z-index: 2;
 }
@@ -28,7 +26,6 @@ nav ul li{
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: white !important;
   border-top: 0.1875rem solid rgba(255, 255, 255, 0);
 }
 
@@ -109,6 +106,18 @@ width: 100% !important; */
 z-index: 1;
 }
 
+/************************** Footer ******************/
+
+#link-footer {
+  color: white;
+}
+
+#link-footer:hover {
+  color: rgb(51, 162, 255); ;
+}
+
+
+
 /************************** Media ******************/
 
 @media(max-width: 768px){
@@ -124,4 +133,16 @@ z-index: 1;
   .navbar-brand {
     width: 7rem;
   }
-}
+  .navbar-nav > li > a:hover {
+    border-top: 0.18rem solid orange;
+    width: 70px;
+  }
+
+  .navbar-nav > li > a {
+  
+    margin-right: 15rem;
+    margin-left: 15rem;
+  }
+
+
+} /*  CLOSING @media(max-width: 768px) */
