@@ -24,8 +24,9 @@ nav ul li{
 }
 
 .navbar-nav > li > a {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+  color: rgb(209, 205, 199) !important;
+  margin-right: 0.65rem;
+  margin-left: 0.65rem;
   border-top: 0.1875rem solid rgba(255, 255, 255, 0);
 }
 
@@ -106,14 +107,41 @@ width: 100% !important; */
 z-index: 1;
 }
 
-/************************** Footer ******************/
+/************************** About Me ******************/
 
-#link-footer {
-  color: white;
+.img-fluid {
+border-radius: 50%;
+max-width: 70%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%;
+margin-bottom: 5%;
 }
+#aboutH {
+  font-size: 2.5vw;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: orange;
+  text-transform: uppercase;
+}
+#about {
+  letter-spacing: 0.0625rem;
+  /* line-height: 1.8rem; */
+  font-style: italic;
+  font-size: 1.8vw;
+  color: rgb(30, 40, 40);
+}
+
+/************************** Footer ******************/
 
 #link-footer:hover {
   color: rgb(51, 162, 255); ;
+}
+.text-uppercase, #link-footer, #footer-p, .footer-copyright {
+  color: rgb(209, 205, 199);
 }
 
 
@@ -139,9 +167,20 @@ z-index: 1;
   }
 
   .navbar-nav > li > a {
-  
     margin-right: 15rem;
     margin-left: 15rem;
+  }
+/*  About Me */
+  .img-fluid {
+    max-width: 100%;
+    margin-top: 30%;
+    }
+
+  #aboutH {
+    font-size: 3vw;
+  }
+  #about {
+    font-size: 2.3vw;
   }
 
 

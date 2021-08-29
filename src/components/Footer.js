@@ -8,61 +8,61 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
     return (
 
-        <footer class="page-footer font-small blue pt-4">
+        <footer className="page-footer font-small blue pt-4 bg-dark">
 
-            <div class="container-fluid text-center text-md-left">
+            <div className="container-fluid text-center text-md-left">
 
-                <div class="row">
+                <div className="row">
 
                     {/* /////////////// Prima Colonna //////////// */}
-                    <div class="col-md-4 mt-md-0 mt-3">
+                    <div className="col-md-4 mt-md-0 mt-3">
 
 
-                        <h5 class="text-uppercase">Keep in Touch!</h5>
-                        <p>Address: Rome, but love to travel <FontAwesomeIcon icon={faSmile} /> </p>
-                        <p>Phone: +39/3493318799</p>
-                        <p>Email: flaviodg85@gmail.com</p>
+                        <h5 className="text-uppercase">Keep in Touch!</h5>
+                        <p id="footer-p">Address: Rome, but love to travel <FontAwesomeIcon icon={faSmile} /> </p>
+                        <p id="footer-p">Phone: +39/3493318799</p>
+                        <p id="footer-p">Email: flaviodg85@gmail.com</p>
 
                     </div>
 
                     {/* /////////////// Seconda Colonna //////////////// */}
-                    <div class="col-md-4 mb-md-0 mb-3">
-                        <h5 class="text-uppercase">Website Map</h5>
+                    <div className="col-md-4 mb-md-0 mb-3">
+                        <h5 className="text-uppercase">Website Map</h5>
 
-                        <div class="row">
-                            <div class="col-md-6 mb-md-0 mb-3">
-                                <ul class="list-unstyled">
+                        <div className="row">
+                            <div className="col-md-6 mb-md-0 mb-3">
+                                <ul className="list-unstyled">
                                     <li>
-                                        <a id="link-footer" class="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
                                             Home
                                         </a>
                                     </li>
                                     <li>
-                                        <a id="link-footer" class="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
                                             About Me
                                         </a>
                                     </li>
                                     <li>
-                                        <a id="link-footer" class="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
                                             Curriculum
                                         </a>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-md-6 mb-md-0 mb-3">
-                                <ul class="list-unstyled">
+                            <div className="col-md-6 mb-md-0 mb-3">
+                                <ul className="list-unstyled">
                                     <li>
-                                        <a id="link-footer" class="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
                                             Studies
                                         </a>
                                     </li>
                                     <li>
-                                        <a id="link-footer" class="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
                                             Portfolio
                                         </a>
                                     </li>
                                     <li>
-                                        <a id="link-footer" class="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
                                             Contacts
                                         </a>
                                     </li>
@@ -73,29 +73,29 @@ const Footer = () => {
                     </div>
 
                     {/* //////////// Terza Colonna ///////////////// */}
-                    <div class="col-md-4 mb-md-0 mb-3">
+                    <div className="col-md-4 mb-md-0 mb-3">
 
-                        <h5 class="text-uppercase">Social</h5>
+                        <h5 className="text-uppercase">Social</h5>
 
-                        <ul class="list-unstyled">
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-tw mx-1"
+                        <ul className="list-unstyled">
+                            <li className="list-inline-item">
+                                <a className="btn-floating btn-tw mx-1"
                                     href="https://www.facebook.com/" target="_blank">
                                     <FontAwesomeIcon icon={faFacebookSquare}
                                         style={{ fontSize: "3rem" }}
                                     />
                                 </a>
                             </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-tw mx-1"
+                            <li className="list-inline-item">
+                                <a className="btn-floating btn-tw mx-1"
                                     href="https://twitter.com/" target="_blank">
                                     <FontAwesomeIcon icon={faTwitterSquare}
                                         style={{ fontSize: "3rem" }}
                                     />
                                 </a>
                             </li>
-                            <li class="list-inline-item">
-                                <a class="btn-floating btn-li mx-1"
+                            <li className="list-inline-item">
+                                <a className="btn-floating btn-li mx-1"
                                     href="https://www.linkedin.com/" target="_blank">
                                     <FontAwesomeIcon icon={faLinkedin}
                                         style={{ fontSize: "3rem" }}
@@ -109,8 +109,9 @@ const Footer = () => {
 
                 </div>
 
-                <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                    <a href="#" > FLOW WEB DEV</a>
+                <div className="footer-copyright text-center py-3">
+                    Developed by me! © 2020 Copyright:
+                    <a href="#" > Flavio Di Giovanni - FLOW WEB DEV</a>
                 </div>
 
             </div>
