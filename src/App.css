@@ -120,7 +120,7 @@ margin-top: 5%;
 margin-bottom: 5%;
 }
 #aboutH {
-  font-size: 2.5vw;
+  /* font-size: 2.5vw; */
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -134,6 +134,40 @@ margin-bottom: 5%;
   font-size: 1.8vw;
   color: rgb(30, 40, 40);
 }
+
+/************************** Curriculum ******************/
+
+.border-light {
+  /* max-width: 25rem; */
+  max-width: 35vw;
+}
+#card1, #card3, #card5 {
+margin-left: 23%;
+clear: both;
+}
+#card2, #card4 {
+  margin-right: 23%;
+  float: right;
+}
+#cvh2 {
+  color: orange;
+  text-align: center;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+#cvh4, #cvh5 {
+  text-align: center;
+}
+.card-title{
+  text-transform: uppercase;
+}
+.card-title2{
+  text-decoration: underline;
+}
+.card-text{
+  font-style: italic;
+}
+
 
 /************************** Footer ******************/
 
@@ -177,10 +211,28 @@ margin-bottom: 5%;
     }
 
   #aboutH {
-    font-size: 3vw;
+    /* font-size: 3vw; */
+    font-size: 1.75rem;
   }
   #about {
     font-size: 2.3vw;
+  }
+  /*  Curriculum */
+  #card1, #card2, #card3, #card4, #card5 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+    margin: auto;
+  }
+  .border-light {
+    max-width: 50vw;
+  }
+  #cvh2 {
+    font-size: 1.75rem;
+    /* margin-top: 3%; */
+  }
+  #cvh4, #cvh5 {
+    font-size: 1.25rem;
   }
 
 
