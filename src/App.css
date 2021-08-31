@@ -136,25 +136,32 @@ margin-bottom: 5%;
 }
 
 /************************** Curriculum ******************/
-
-.border-light {
-  /* max-width: 25rem; */
-  max-width: 35vw;
-}
-#card1, #card3, #card5 {
-margin-left: 23%;
-clear: both;
-}
-#card2, #card4 {
-  margin-right: 23%;
-  float: right;
+#cv-row {
+  text-align: center;
+  margin-bottom: 5%;
 }
 #cvh2 {
   color: orange;
-  text-align: center;
+  vertical-align: middle;
   margin-bottom: 5%;
+  margin-top: 5%;
   text-transform: uppercase;
+  margin: auto;
 }
+.border-light {
+  /* max-width: 25rem; */
+  max-width: 25vw;
+  min-width: 25vw;
+}
+#card1, #card3, #card5 {
+margin-left: 26%;
+clear: both;
+}
+#card2, #card4 {
+  margin-right: 26%;
+  float: right;
+}
+
 #cvh4, #cvh5 {
   text-align: center;
 }
@@ -167,6 +174,28 @@ clear: both;
 .card-text{
   font-style: italic;
 }
+
+/************************** Studies ******************/
+#studies-row {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+#studies-h2 {
+  color: orange;
+  vertical-align: middle;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-transform: uppercase;
+  margin: auto;
+}
+#studies-last-row {
+  padding-bottom: 5%;
+}
+#studies-img {
+  text-align: center;
+}
+
 
 
 /************************** Footer ******************/
@@ -204,7 +233,7 @@ clear: both;
     margin-right: 15rem;
     margin-left: 15rem;
   }
-/*  About Me */
+/****************************  About Me */
   .img-fluid {
     max-width: 100%;
     margin-top: 30%;
@@ -217,7 +246,7 @@ clear: both;
   #about {
     font-size: 2.3vw;
   }
-  /*  Curriculum */
+  /******************************  Curriculum */
   #card1, #card2, #card3, #card4, #card5 {
     margin-left: 0;
     margin-right: 0;
@@ -235,5 +264,13 @@ clear: both;
     font-size: 1.25rem;
   }
 
+    /******************************  Studies */
+    #studies-picture {
+      max-width: 50%;
+      margin-left: 25%;
+     margin-bottom: 5%;    
+  }
+
 
 } /*  CLOSING @media(max-width: 768px) */
+

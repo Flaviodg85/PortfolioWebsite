@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Curriculum from "./components/Curriculum";
+import Studies from "./components/Studies";
 
 
 
@@ -37,6 +38,7 @@ function App() {
       <Header />
       <AboutMe />
       <Curriculum />
+      <Studies />
       <Footer />
     </>
   );
