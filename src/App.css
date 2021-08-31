@@ -196,6 +196,14 @@ clear: both;
   text-align: center;
 }
 
+/*********************** Carousel ********************/
+
+.carousel-inner {
+  width:70%;
+  height:70%;
+  margin: auto;
+}
+
 
 
 /************************** Footer ******************/

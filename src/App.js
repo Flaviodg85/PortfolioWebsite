@@ -7,6 +7,8 @@ import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Curriculum from "./components/Curriculum";
 import Studies from "./components/Studies";
+import Portfolio from "./components/Portfolio";
+import Form from "./components/Form";
 
 
 
@@ -39,6 +41,8 @@ function App() {
       <AboutMe />
       <Curriculum />
       <Studies />
+      <Portfolio />
+      <Form />
       <Footer />
     </>
   );
