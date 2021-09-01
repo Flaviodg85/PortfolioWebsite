@@ -13,7 +13,7 @@ const Form = () => {
 
                 <div id="studies-row" className="row">
                     <div className="col-sm-12 text-center">
-                        <h5 id="">I will contact you back as soon as possible</h5>
+                        <h5 id="form-h5">I will contact you back as soon as possible</h5>
                     </div>
                 </div>
 

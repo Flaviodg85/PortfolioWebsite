@@ -16,27 +16,27 @@ const Curriculum = () => {
                         <li className="curriculum-li">
                             <h5 className="class-h5">Java Full Stack Developer Course</h5>
                             <p className="curriculum-p">February 2021/ August 2021</p>
-                            <p>Gm Formazione - Rome, Italy</p>
+                            <p className="curriculum-p2">Gm Formazione - Rome, Italy</p>
                         </li>
                         <li className="curriculum-li">
                             <h5 className="class-h5">Customer service Representative</h5>
                             <p className="curriculum-p">October 2019/ August 2020</p>
-                            <p>Qoqo - Eindhoven, Netherlands   </p>
+                            <p className="curriculum-p2">Qoqo - Eindhoven, Netherlands   </p>
                         </li>
                         <li className="curriculum-li">
                             <h5 className="class-h5">Export manager</h5>
                             <p className="curriculum-p">April 2017/ March 2019</p>
-                            <p>Energia e Ambiente di Antonino Giare' - Rome, Italy   </p>
+                            <p className="curriculum-p2">Energia e Ambiente di Antonino Giare' - Rome, Italy   </p>
                         </li>
                         <li className="curriculum-li">
                             <h5 className="class-h5">Junior export manager  </h5>
                             <p className="curriculum-p">January 2016/ February 2017</p>
-                            <p>I'Moving/Green Vehicles - Jesi, Italy  </p>
+                            <p className="curriculum-p2">I'Moving/Green Vehicles - Jesi, Italy  </p>
                         </li>
                         <li className="curriculum-li">
                             <h5 className="class-h5">English teacher </h5>
                             <p className="curriculum-p">January 2015/ June 2015</p>
-                            <p>Little seeds Montessori kindergarten - Beijing, China  </p>
+                            <p className="curriculum-p2">Little seeds Montessori kindergarten - Beijing, China  </p>
                         </li>
                     </ul>
                 </div>

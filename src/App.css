@@ -137,7 +137,6 @@ margin-top: 8%;
 margin-bottom: 5%;
 }
 #aboutH {
-  /* font-size: 2.5vw; */
   text-align: center;
   margin-top: 8%;
   margin-bottom: 5%;
@@ -147,7 +146,7 @@ margin-bottom: 5%;
 #about-p {
   /* line-height: 1.8rem; */
   /* font-style: italic; */
-  font-size: 1.8vw;
+  font-size: 1.74vw;
   color: rgb(30, 40, 40);
 }
 
@@ -300,21 +299,15 @@ ul.timeline > li:before {
   }
 
   .navbar-nav > li > a {
-    margin-right: 15rem;
-    margin-left: 15rem;
+    margin-left: 40%;
   }
 /****************************  About Me */
-  .img-fluid {
-    max-width: 100%;
-    margin-top: 20%;
-    }
-
   #aboutH {
-    /* font-size: 3vw; */
     font-size: 1.75rem;
+    margin-top: 4%;
   }
   #about-p {
-    font-size: 2.3vw;
+    font-size: 1.2rem;
   }
   /******************************  Curriculum */
   
@@ -323,15 +316,54 @@ ul.timeline > li:before {
     /* margin-top: 3%; */
   }
   #cvh4, #cvh5 {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
+  }
+  .class-h5 {
+    font-size: 1.15rem;
+  }
+  .curriculum-p {
+    font-size: 0.7em;
+  }
+  .curriculum-p2 {
+    font-size: 0.9rem;
+  }
+  ul.timeline {
+    list-style-type: none;
+    position: relative;
+  }
+  ul.timeline:before {
+    left: 20vw;
+  }
+  ul.timeline > li {
+    padding-left: 19vw;
+  }
+  ul.timeline > li:before {
+    left: 18.5vw;
   }
   
 
-    /******************************  Studies */
-    #studies-picture {
-      max-width: 50%;
-      margin-left: 25%;
-     margin-bottom: 5%;    
+    /******************************  Studies, form, carousel */
+  #studies-picture {
+    max-width: 55%;
+    margin: auto;
+    margin-bottom: 5%;    
+  }
+  .card-title {
+    font-size: 1.25rem;
+  }
+  .card-text {
+    font-size: .9rem;
+  }
+
+    #studies-h2 {
+      font-size: 1.75rem;
+  }
+    #form-h5{
+      font-size: 1rem;
+  }
+    .carousel-inner {
+      width: 80%;
+      height: 80%;
   }
 
 

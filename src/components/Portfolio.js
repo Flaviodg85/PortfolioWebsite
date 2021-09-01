@@ -25,12 +25,12 @@ const Portfolio = () => {
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src={actual} alt="This site" />
                                 <h5 className="text-center" style={{ color: "#00788C", marginTop: "2%" }}>You are on it!</h5>
-                                <p className="text-center" style={{ marginBottom: "2%" }}>This is the first complete work I developed, made with React and Bootstrap</p>
+                                <p className="text-center" style={{ marginBottom: "3%" }}>The first complete work I developed, with React and Bootstrap</p>
                             </div>
                             <div class="carousel-item">
                                 <img class="d-block w-100" src={comingSoon} alt="Coming soon" />
                                 <h5 className="text-center" style={{ color: "#00788C", marginTop: "2%" }}>Coming Soon</h5>
-                                <p className="text-center" style={{ marginBottom: "2%" }}>I'm working on it!</p>
+                                <p className="text-center" style={{ marginBottom: "3%" }}>I'm  already working on a new website and will deploy it soon!</p>
                             </div>
                         </div>
 
