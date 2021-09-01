@@ -2,7 +2,8 @@ import React from 'react'
 
 const Form = () => {
     return (
-        <div className="container-fluid bg-light">
+        <div id="scroll-form" className="container-fluid">
+            <p id="fake-for-scroll">fake-for-scroll</p>
 
             <form>
 
@@ -12,7 +13,7 @@ const Form = () => {
 
                 <div id="studies-row" className="row">
                     <div className="col-sm-12 text-center">
-                        <h5 id="">I will contact you as soon as possible</h5>
+                        <h5 id="">I will contact you back as soon as possible</h5>
                     </div>
                 </div>
 

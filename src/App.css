@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lora', sans-serif;
+  background-color: #E1D9D1;
 }
+
+:root {
+  --teal: #00788C;
+  --teal-light: #1B7895;
+}
+#fake-for-scroll{
+  margin: 0.9375rem;
+  visibility: hidden;
+}
+
 
 /************************** Navbar ******************/
 
@@ -36,12 +48,15 @@ padding: 0 !important;
 }
 
 /* .navbar-nav > li > a.active:focus {
-border-top: 0.1875rem solid orange;
+border-top: 0.1875rem solid var(--teal);
 } */
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid orange;
+  border-top: 0.1875rem solid var(--teal);
 }
+/* .sticky-top {
+  position: sticky;
+} */
 
 
 /************************** Header ******************/
@@ -70,7 +85,7 @@ height: 90vh;
 
 .main-info h1 {
   text-transform: uppercase;
-  color: orange;
+  color: var(--teal);
 }
 
 /************************** Typed text ******************/
@@ -83,7 +98,7 @@ height: 90vh;
 /************************** Main offer button ******************/
 
 .btn-main-offer {
-border: 1px solid red;
+border: 0.0625rem solid black;
 text-transform: uppercase;
 border-radius: 0;
 padding: 0.75rem;
@@ -94,7 +109,7 @@ margin: 2rem;
   text-decoration: none;
   background-color: white;
   color: white;
-  background-color: orange;
+  background-color: var(--teal);
   transition: .2s ease-in-out;
 }
 
@@ -108,7 +123,9 @@ z-index: 1;
 }
 
 /************************** About Me ******************/
-
+/* #scroll-about {
+  overflow-y: scroll;
+} */
 .img-fluid {
 border-radius: 50%;
 max-width: 70%;
@@ -116,21 +133,20 @@ height: auto;
 display: block;
 margin-left: auto;
 margin-right: auto;
-margin-top: 5%;
+margin-top: 8%;
 margin-bottom: 5%;
 }
 #aboutH {
   /* font-size: 2.5vw; */
   text-align: center;
-  margin-top: 5%;
+  margin-top: 8%;
   margin-bottom: 5%;
-  color: orange;
+  color: var(--teal);
   text-transform: uppercase;
 }
-#about {
-  letter-spacing: 0.0625rem;
+#about-p {
   /* line-height: 1.8rem; */
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 1.8vw;
   color: rgb(30, 40, 40);
 }
@@ -139,40 +155,60 @@ margin-bottom: 5%;
 #cv-row {
   text-align: center;
   margin-bottom: 5%;
+  margin-top: 5%;
 }
 #cvh2 {
-  color: orange;
+  color: var(--teal);
   vertical-align: middle;
   margin-bottom: 5%;
   margin-top: 5%;
   text-transform: uppercase;
   margin: auto;
 }
-.border-light {
-  /* max-width: 25rem; */
-  max-width: 25vw;
-  min-width: 25vw;
+.curriculum-li{
+  margin-bottom: 7%;
 }
-#card1, #card3, #card5 {
-margin-left: 26%;
-clear: both;
+.class-h5 {
+  color: var(--teal);
 }
-#card2, #card4 {
-  margin-right: 26%;
-  float: right;
+.curriculum-p {
+  font-size: 0.8em;
 }
-
 #cvh4, #cvh5 {
   text-align: center;
 }
-.card-title{
-  text-transform: uppercase;
+#cvh4 {
+  margin-top: 5%;
 }
-.card-title2{
-  text-decoration: underline;
+ul.timeline {
+  list-style-type: none;
+  position: relative;
 }
-.card-text{
-  font-style: italic;
+ul.timeline:before {
+  content: ' ';
+  background: var(--teal-light);
+  display: inline-block;
+  position: absolute;
+  left: 1.8rem;
+  width: 0.125rem;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 2vw, 0;
+  padding-left: 2vw;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 0.1875rem solid var(--teal-light);
+  left: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  z-index: 400;
 }
 
 /************************** Studies ******************/
@@ -182,7 +218,7 @@ clear: both;
   margin-top: 5%;
 }
 #studies-h2 {
-  color: orange;
+  color: var(--teal);
   vertical-align: middle;
   margin-bottom: 5%;
   margin-top: 5%;
@@ -197,11 +233,32 @@ clear: both;
 }
 
 /*********************** Carousel ********************/
+#portfolio-row {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 6%;
+}
+#portfolio-h2 {
+  color: var(--teal);
+  vertical-align: middle;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-transform: uppercase;
+  margin: auto;
+}
 
 .carousel-inner {
   width:70%;
   height:70%;
   margin: auto;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 
@@ -220,6 +277,11 @@ clear: both;
 /************************** Media ******************/
 
 @media(max-width: 768px){
+
+  .sticky-top {
+  position: static;
+}
+
   .particles-canvas {
     display: none;
   }
@@ -233,8 +295,8 @@ clear: both;
     width: 7rem;
   }
   .navbar-nav > li > a:hover {
-    border-top: 0.18rem solid orange;
-    width: 70px;
+    border-top: 0.18rem solid var(--teal);
+    width: 5.625rem;
   }
 
   .navbar-nav > li > a {
@@ -244,26 +306,18 @@ clear: both;
 /****************************  About Me */
   .img-fluid {
     max-width: 100%;
-    margin-top: 30%;
+    margin-top: 20%;
     }
 
   #aboutH {
     /* font-size: 3vw; */
     font-size: 1.75rem;
   }
-  #about {
+  #about-p {
     font-size: 2.3vw;
   }
   /******************************  Curriculum */
-  #card1, #card2, #card3, #card4, #card5 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-    margin: auto;
-  }
-  .border-light {
-    max-width: 50vw;
-  }
+  
   #cvh2 {
     font-size: 1.75rem;
     /* margin-top: 3%; */
@@ -271,6 +325,7 @@ clear: both;
   #cvh4, #cvh5 {
     font-size: 1.25rem;
   }
+  
 
     /******************************  Studies */
     #studies-picture {
@@ -281,4 +336,7 @@ clear: both;
 
 
 } /*  CLOSING @media(max-width: 768px) */
+
+
+
 

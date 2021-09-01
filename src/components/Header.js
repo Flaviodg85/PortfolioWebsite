@@ -9,7 +9,7 @@ const Header = () => {
                 <ReactTypingEffect
                     className="typed-text"
                     text={["Hello World!",
-                        "Web Design", "Web Development"]}
+                        "Web Design", "App Development"]}
                     speed={200}
                     eraseSpeed={100}
                     eraseDelay={300}

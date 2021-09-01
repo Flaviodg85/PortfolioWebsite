@@ -5,7 +5,8 @@ import statua from "../img/statua.png";
 
 const Studies = () => {
     return (
-        <div className="container-fluid bg-light">
+        <div id="scroll-studies" className="container-fluid">
+            <p id="fake-for-scroll">fake-for-scroll</p>
 
             <div id="studies-row" className="row">
                 <h2 id="studies-h2">Studies</h2>
@@ -19,8 +20,8 @@ const Studies = () => {
                         <img class="card-img-top" src={statua} alt="la-sapienza"></img>
                         <div class="card-body">
                             <h5 class="card-title">University</h5>
-                            <p class="card-text">Some quick example text to build on the card
-                                title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Despite my career as programmer, I have a degree in Literature and Philosophy
+                                at La Sapienza University in Rome. </p>
                         </div>
                     </div>
                 </div>
@@ -31,8 +32,8 @@ const Studies = () => {
                         <img class="card-img-top" src={java} alt="java"></img>
                         <div class="card-body">
                             <h5 class="card-title">Java Full Stack Developer Course</h5>
-                            <p class="card-text">Some quick example text to build on the card
-                                title and make up the bulk of the card's content.</p>
+                            <p class="card-text">500 hours of studying and 240 hours of stage about Java, front-end, back-end,
+                                database and more. Was tough but fun!</p>
                         </div>
                     </div>
                 </div>
@@ -43,8 +44,8 @@ const Studies = () => {
                         <img class="card-img-top" src={course} alt="courses"></img>
                         <div class="card-body">
                             <h5 class="card-title">Other Courses</h5>
-                            <p class="card-text">Some quick example text to build on the card
-                                title and make up the bulk of the card's content.</p>
+                            <p class="card-text">"Fundamentals of programming"(in Python) at Toronto University
+                                & "Html, Css, Javascript for Web Developer" at Johns Hopkins University</p>
                         </div>
                     </div>
                 </div>

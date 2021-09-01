@@ -20,7 +20,7 @@ const Footer = () => {
 
                         <h5 className="text-uppercase">Keep in Touch!</h5>
                         <p id="footer-p">Address: Rome, but love to travel <FontAwesomeIcon icon={faSmile} /> </p>
-                        <p id="footer-p">Phone: +39/3493318799</p>
+                        <p id="footer-p">Phone: +393493318799</p>
                         <p id="footer-p">Email: flaviodg85@gmail.com</p>
 
                     </div>
@@ -38,12 +38,12 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#scroll-about">
                                             About Me
                                         </a>
                                     </li>
                                     <li>
-                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#scroll-curriculum">
                                             Curriculum
                                         </a>
                                     </li>
@@ -52,17 +52,17 @@ const Footer = () => {
                             <div className="col-md-6 mb-md-0 mb-3">
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#scroll-studies">
                                             Studies
                                         </a>
                                     </li>
                                     <li>
-                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#scroll-portfolio">
                                             Portfolio
                                         </a>
                                     </li>
                                     <li>
-                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#">
+                                        <a id="link-footer" className="btn-floating btn-tw mx-1" href="#scroll-form">
                                             Contacts
                                         </a>
                                     </li>

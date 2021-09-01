@@ -15,7 +15,7 @@ import Form from "./components/Form";
 function App() {
   return (
     <>
-      <Particles
+      {/* <Particles
         className="particles-canvas"
         params={{
           particles: {
@@ -35,8 +35,10 @@ function App() {
             }
           }
         }}
-      />
+      /> */}
       <Navbar />
+
+
       <Header />
       <AboutMe />
       <Curriculum />

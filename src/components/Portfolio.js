@@ -1,13 +1,14 @@
 import React from 'react'
 import comingSoon from "../img/coming-soon.png";
-import actual from "../img/this.png";
+import actual from "../img/thisWebsite.png";
 
 const Portfolio = () => {
     return (
-        <div className="container">
+        <div id="scroll-portfolio" className="container">
+            <p id="fake-for-scroll">fake-for-scroll</p>
 
-            <div id="studies-row" className="row">
-                <h2 id="studies-h2">Portfolio</h2>
+            <div id="portfolio-row" className="row">
+                <h2 id="portfolio-h2">Portfolio</h2>
             </div>
 
             <div className="row">
@@ -23,19 +24,19 @@ const Portfolio = () => {
                         <div class="carousel-inner" >
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src={actual} alt="This site" />
-                                <h5 className="text-center" style={{ color: "orange", marginTop: "2%" }}>You are on it!</h5>
+                                <h5 className="text-center" style={{ color: "#00788C", marginTop: "2%" }}>You are on it!</h5>
                                 <p className="text-center" style={{ marginBottom: "2%" }}>This is the first complete work I developed, made with React and Bootstrap</p>
                             </div>
                             <div class="carousel-item">
                                 <img class="d-block w-100" src={comingSoon} alt="Coming soon" />
-                                <h5 className="text-center" style={{ color: "orange", marginTop: "2%" }}>Coming Soon</h5>
+                                <h5 className="text-center" style={{ color: "#00788C", marginTop: "2%" }}>Coming Soon</h5>
                                 <p className="text-center" style={{ marginBottom: "2%" }}>I'm working on it!</p>
                             </div>
                         </div>
 
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" >
+                            <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+                            <span class="sr-only" >Previous</span>
                         </a>
 
                         <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
