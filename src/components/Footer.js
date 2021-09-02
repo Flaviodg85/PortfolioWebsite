@@ -21,7 +21,7 @@ const Footer = () => {
                         <h5 className="text-uppercase">Keep in Touch!</h5>
                         <p id="footer-p">Address: Rome, but love to travel <FontAwesomeIcon icon={faSmile} /> </p>
                         <p id="footer-p">Phone: +393493318799</p>
-                        <p id="footer-p">Email: flaviodg85@gmail.com</p>
+                        <p id="footer-p">Email: flavio.digiovanni@outlook.com</p>
 
                     </div>
 
