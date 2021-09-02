@@ -63,7 +63,7 @@ border-top: 0.1875rem solid var(--teal);
 
 .header-wrapper {
 position: relative;
-background: url(./img/background.png) no-repeat;
+background: url(./img/background3.png) no-repeat;
 background-size: cover;
 background-position: center;
 height: 90vh;
@@ -86,6 +86,8 @@ height: 90vh;
 .main-info h1 {
   text-transform: uppercase;
   color: var(--teal);
+  /* color: #829c9c; */
+  /* color: #97adb2; */
 }
 
 /************************** Typed text ******************/

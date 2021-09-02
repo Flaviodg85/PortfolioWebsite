@@ -110,7 +110,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-copyright text-center py-3">
-                    Developed by me! © 2020 Copyright:
+                    Developed by me! © 2021 Copyright:
                     <a href="#" > Flavio Di Giovanni - FLOW WEB DEV</a>
                 </div>
 
