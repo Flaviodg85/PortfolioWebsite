@@ -15,7 +15,7 @@ const Header = () => {
                     eraseDelay={300}
                     typingDelay={300}
                 />
-                <a href="" className="btn-main-offer"> Contact Me</a>
+                <a href="#scroll-form" className="btn-main-offer"> Contact Me</a>
             </div>
         </div>
     )

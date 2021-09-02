@@ -251,6 +251,15 @@ ul.timeline > li:before {
   height:70%;
   margin: auto;
 }
+#carousel-h5 {
+  color: #00788C;
+  margin-top: 2%;
+}
+#carousel-p {
+  margin-bottom: 3%;
+  /* height: 20vw; //to fix the changing of the following div!
+  width: 80vw; */
+}
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
@@ -301,6 +310,10 @@ ul.timeline > li:before {
   .navbar-nav > li > a {
     margin-left: 40%;
   }
+  .logo {
+    max-width: 2.8rem;
+    max-height: 2.8rem;
+  }
 /****************************  About Me */
   #aboutH {
     font-size: 1.75rem;
@@ -332,19 +345,19 @@ ul.timeline > li:before {
     position: relative;
   }
   ul.timeline:before {
-    left: 20vw;
+    left: 17vw;
   }
   ul.timeline > li {
-    padding-left: 19vw;
+    padding-left: 16vw;
   }
   ul.timeline > li:before {
-    left: 18.5vw;
+    left: 15.2vw;
   }
   
 
     /******************************  Studies, form, carousel */
   #studies-picture {
-    max-width: 55%;
+    max-width: 75%;
     margin: auto;
     margin-bottom: 5%;    
   }
@@ -352,7 +365,7 @@ ul.timeline > li:before {
     font-size: 1.25rem;
   }
   .card-text {
-    font-size: .9rem;
+    font-size: .7rem;
   }
 
     #studies-h2 {
@@ -364,6 +377,9 @@ ul.timeline > li:before {
     .carousel-inner {
       width: 80%;
       height: 80%;
+  }
+  #carousel-h5 {
+    color: #212529;
   }
 
 

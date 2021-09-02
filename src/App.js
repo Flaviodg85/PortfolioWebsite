@@ -8,11 +8,12 @@ import AboutMe from "./components/AboutMe";
 import Curriculum from "./components/Curriculum";
 import Studies from "./components/Studies";
 import Portfolio from "./components/Portfolio";
-import Form from "./components/Form";
+import Form from "./components/Form"
 
 
 
 function App() {
+
   return (
     <>
       {/* <Particles
