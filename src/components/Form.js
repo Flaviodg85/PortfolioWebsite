@@ -36,7 +36,7 @@ const Form = () => {
                     </div>
                 </div>
 
-                <div className="row" style={{ paddingTop: "5%", paddingBottom: "5%" }}>
+                <div id="form-button" className="row" style={{ paddingTop: "5%", paddingBottom: "5%" }}>
                     <div className="col-sm-12 text-center">
                         <button class="btn btn-primary" type="submit">Submit</button>
                     </div>

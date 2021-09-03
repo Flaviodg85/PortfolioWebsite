@@ -384,6 +384,10 @@ ul.timeline > li:before {
     color: #212529;
   }
 
+  #form-button {
+    margin-top: 5%;
+  }
+
 
 } /*  CLOSING @media(max-width: 768px) */
 

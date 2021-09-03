@@ -17,7 +17,7 @@ const AboutMe = () => {
                     <p id="about-p">
                         Hi! My name is Flavio and I am a Full Stack Web Developer!
                         In my working career I did different jobs around the world. Programming has always been a passion
-                        of mine but unfortunately I have never
+                        of mine but I have never
                         had the opportunity to study it properly. Recently I decided to take some
                         time off from work and started to study as a Java Full Stack Web Developer.
                         I attended a course in Rome, organized by the Lazio Region, of 740 hours between studying and
